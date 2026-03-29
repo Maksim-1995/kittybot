@@ -34,7 +34,7 @@ def main():
             bot.polling(none_stop=True)
         except KeyboardInterrupt:
             print("Бот остановлен вручную")
-            break  # ⛔ ВАЖНО — выходим из цикла
+            break
 
         except Exception as e:
             logging.error(f"Бот упал: {e}")
